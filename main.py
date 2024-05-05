@@ -7,4 +7,4 @@ def deposit() :
             if amount > 0 :
                 break
             else :
-                
+                print("Amount must be greater than 0.")
