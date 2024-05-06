@@ -24,5 +24,7 @@ def depo() :
                  break
             else :
                 print("Amount must be greater than 5")
+        else :
+            print("Please enter a number")
 
 
