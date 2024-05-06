@@ -13,3 +13,7 @@ def deposit() :
     return amount
 
 deposit()
+
+
+def depo() :
+    
