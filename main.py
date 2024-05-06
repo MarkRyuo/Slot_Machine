@@ -1,4 +1,6 @@
 
+
+
 def deposit() :
     while True :
         amount = input("What would you like deposit? $ ")
@@ -13,7 +15,7 @@ def deposit() :
     return amount
 
 def get_number_of_lines() :
-    
+
 
 def main() :
     balance = deposit()
