@@ -12,7 +12,11 @@ def deposit() :
             print("Please enter a number")
     return amount
 
-deposit()
+def main() :
+    balance = deposit()
+
+
+main()
 
 
 
