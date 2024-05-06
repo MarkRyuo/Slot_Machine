@@ -16,4 +16,4 @@ deposit()
 
 
 def depo() :
-    
+    amount = input("What would you like deposit? $: ")
