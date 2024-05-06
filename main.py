@@ -16,7 +16,9 @@ def deposit() :
 
 def get_number_of_lines() :
     while True :
-        amount = input("What would you like deposit? $ ")
+        lines = input(
+            f"Enter a number of lines to bet on (0 - {MAX_LINES}): "
+        )
         if amount.isdigit() : #  It returns True if all characters in the string are digits (0-9) otherwise false 
             amount = int(amount)
             if amount > 5 :
