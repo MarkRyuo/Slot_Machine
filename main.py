@@ -12,6 +12,9 @@ def deposit() :
             print("Please enter a number")
     return amount
 
+def get_number_of_lines() :
+    
+
 def main() :
     balance = deposit()
 
