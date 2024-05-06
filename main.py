@@ -1,4 +1,4 @@
-MAX_LINES = 6 # CONST NOT CHANGEABLE 
+MAX_LINES = 6 # CONST NOT CHANGEABLE // Global Variable 
 
 
 def deposit() :
