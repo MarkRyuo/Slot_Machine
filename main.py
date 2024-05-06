@@ -20,14 +20,14 @@ def get_number_of_lines() :
             f"Enter a number of lines to bet on (0 - {MAX_LINES}): "
         )
         if lines.isdigit() : 
-            lines = int(amount)
+            lines = int(lines)
             if 0 <= lines <= MAX_LINES :
                 break 
             else :
-                print("Amount must be greater than 5.")
+                print("Enter a valid lines")
         else:
             print("Please enter a number")
-    return amount
+    return lines 
 
 
 def main() :
