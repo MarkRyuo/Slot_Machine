@@ -21,7 +21,7 @@ def get_number_of_lines() :
         )
         if lines.isdigit() : #  It returns True if all characters in the string are digits (0-9) otherwise false 
             lines = int(amount)
-            if 0 >= lines >= MAX_LINES :
+            if 0 <= lines <= MAX_LINES :
                 break # Kapag nilagay ay greater than 0 titigil na ang loop
             else :
                 print("Amount must be greater than 5.")
