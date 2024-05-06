@@ -15,19 +15,19 @@ def deposit() :
 deposit()
 
 
-def depo() :
-    while True :
-        amount = input("What would you like deposit? $: ")
-        if amount :
-            amount = int(amount)
-            if amount > 5 :
-                 break
-            else :
-                print("Amount must be greater than 5")
-        else :
-            print("Please enter a number")
-    return amount 
+# def depo() :
+#     while True :
+#         amount = input("What would you like deposit? $: ")
+#         if amount :
+#             amount = int(amount)
+#             if amount > 5 :
+#                  break
+#             else :
+#                 print("Amount must be greater than 5")
+#         else :
+#             print("Please enter a number")
+#     return amount 
 
-depo()
+# depo()
 
 
