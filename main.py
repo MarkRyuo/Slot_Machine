@@ -16,11 +16,13 @@ deposit()
 
 
 def depo() :
-    amount = input("What would you like deposit? $: ")
-    if amount :
+    while True :
+     amount = input("What would you like deposit? $: ")
+     if amount :
         amount = int(amount)
         if amount > 5 :
             break
         else :
-            
+            print
+
 
