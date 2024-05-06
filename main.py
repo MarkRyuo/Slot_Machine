@@ -19,8 +19,8 @@ def get_number_of_lines() :
         lines = input(
             f"Enter a number of lines to bet on (0 - {MAX_LINES}): "
         )
-        if amount.isdigit() : #  It returns True if all characters in the string are digits (0-9) otherwise false 
-            amount = int(amount)
+        if lines.isdigit() : #  It returns True if all characters in the string are digits (0-9) otherwise false 
+            lines = int(amount)
             if amount > 5 :
                 break # Kapag nilagay ay greater than 0 titigil na ang loop
             else :
