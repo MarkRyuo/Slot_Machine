@@ -1,3 +1,4 @@
+# Global Variables 
 MAX_LINES = 6 # CONST NOT CHANGEABLE // Global Variable 
 MAX_BET = 100 
 MIN_BET = 1
