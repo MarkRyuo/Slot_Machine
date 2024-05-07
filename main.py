@@ -52,8 +52,10 @@ def get_bet() :
 def main() :
     balance = deposit()
     lines = get_number_of_lines()
-    get = get_bet()
+    bet = get_bet()
+    print(f"You are betting ${bet} on {lines} total beta {}")
     print(balance, lines)
+
 
 
 main()
