@@ -43,7 +43,7 @@ def get_bet() :
             if MIN_BET <= amount <= MAX_BET:
                 break # Kapag nilagay ay greater than 0 titigil na ang loop
             else :
-                print("Amount must be greater than 5.")
+                print("Amount must between.")
         else:
             print("Please enter a number")
     return amount
