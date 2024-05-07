@@ -36,7 +36,7 @@ def get_number_of_lines() :
 def get_bet() :
     while True :
         amount = input(
-            "What would you like deposit? $ "
+            "What would you like to bet? $:  "
             )
         if amount.isdigit() : #  It returns True if all characters in the string are digits (0-9) otherwise false 
             amount = int(amount)
