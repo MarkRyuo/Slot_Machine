@@ -6,7 +6,7 @@ MIN_BET = 1
 def deposit() :
     while True :
         amount = input(
-            "What would you like deposit? $ "
+            "What would you like deposit? $"
             )
         if amount.isdigit() : #  It returns True if all characters in the string are digits (0-9) otherwise false 
             amount = int(amount)
