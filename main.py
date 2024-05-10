@@ -62,6 +62,8 @@ def main() :
             print(
                 f"You do not have enough to bet that amount, Your current balance is: ${balance}"
             )
+        else :
+            
         
     print(f"You are betting ${bet} on {lines}. The total bet is equal to ${total_bet}")
     print(balance, lines)
