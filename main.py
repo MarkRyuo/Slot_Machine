@@ -57,6 +57,8 @@ def main() :
     while True :
         bet = get_bet()
         total_bet = bet * lines
+
+        if total_bet > balance :
         
     print(f"You are betting ${bet} on {lines}. The total bet is equal to ${total_bet}")
     print(balance, lines)
