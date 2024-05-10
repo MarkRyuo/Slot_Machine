@@ -53,8 +53,9 @@ def get_bet() :
 def main() :
     balance = deposit()
     lines = get_number_of_lines()
-    bet = get_bet()
-    total_bet = bet * lines
+    
+    while True :
+        
     print(f"You are betting ${bet} on {lines}. The total bet is equal to ${total_bet}")
     print(balance, lines)
 
