@@ -22,7 +22,11 @@ def get_slot_machine_spin(rows, cols, symbols) :
             all_symbols.append(symbol)
     
     columns = [[], [], []]
-    
+    for col in range(cols) :
+        column = []
+        for row in range(rows) :
+            value = random.choice(all_symbols)
+
 
 def deposit() :
     while True :
