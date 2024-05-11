@@ -43,9 +43,6 @@ def print_slot_machine(columns) :
 
 
 
-
-
-
 def deposit() :
     while True :
         amount = input(
