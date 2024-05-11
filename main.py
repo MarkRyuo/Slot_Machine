@@ -27,6 +27,7 @@ def get_slot_machine_spin(rows, cols, symbols) :
         current_symbols = all_symbols[:]
         for row in range(rows) :
             value = random.choice(all_symbols)
+            current_symbols.remove(value)
 
 
 
