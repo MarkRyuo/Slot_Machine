@@ -34,7 +34,7 @@ def get_slot_machine_spin(rows, cols, symbols) :
     return columns 
 
 def print_slot_machine(columns) :
-      
+    for row in range(len(columns[0]))  
 
 
 
