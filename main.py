@@ -24,9 +24,10 @@ def get_slot_machine_spin(rows, cols, symbols) :
     columns = [[], [], []]
     for col in range(cols) :
         column = []
-        current_symbols = all_symbols
+        current_symbols = all_symbols[:]
         for row in range(rows) :
             value = random.choice(all_symbols)
+
 
 
 
