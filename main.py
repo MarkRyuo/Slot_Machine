@@ -8,6 +8,10 @@ MIN_BET = 1
 ROWS = 3
 COLS = 3
 
+symbol_count = {
+    
+}
+
 def deposit() :
     while True :
         amount = input(
