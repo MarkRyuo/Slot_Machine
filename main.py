@@ -33,7 +33,7 @@ def check_winnings(columns, lines, bet, values) :
         else :
             winnings += values[symbol] * bet
             winnings_lines.append(line + 1)
-    return winnings 
+    return winnings, winnings_lines
 
 
 #Understand logic here
