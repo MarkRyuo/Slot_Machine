@@ -29,8 +29,8 @@ def check_winnings(columns, lines, bet, values) :
             symbol_to_check = column[line]
             if symbol != symbol_to_check :
                 break
-            else :
-                winnings += values[symbol] * bet               
+        else :
+            winnings += values[symbol] * bet               
     return winnings 
 
 
