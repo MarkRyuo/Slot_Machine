@@ -30,7 +30,8 @@ def check_winnings(columns, lines, bet, values) :
             if symbol != symbol_to_check :
                 break
             else :
-                winnings += values[symbol] * bet 
+                winnings += values[symbol] * bet
+                 
     return winnings 
 
 
